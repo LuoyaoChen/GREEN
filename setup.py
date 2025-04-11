@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="green_score",
+    name="green_score_lc",
     version="0.0.11",
     author="Sophie Ostmeier, Jean-Benoit Delbrouck",
     license="MIT",
@@ -32,7 +32,8 @@ setup(
         "pytest",
     ],
     # python_requires='>=3.9,<=3.10.13',
-    python_requires="==3.12.1",
+    # python_requires="==3.12.1",
+    python_requires='>=3.9',
     packages=find_packages(),
     zip_safe=False,
 )
